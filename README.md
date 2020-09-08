@@ -2,9 +2,9 @@
 
 This is the working area for the individual Internet-Draft, "Retry-After scope".
 
-* [Editor's Copy](https://ioggstream.github.io/draft-polli-retry-scope/#go.draft-polli-retry-scope.html)
-* [Individual Draft](https://tools.ietf.org/html/draft-polli-retry-scope)
-* [Compare Editor's Copy to Individual Draft](https://ioggstream.github.io/draft-polli-retry-scope/#go.draft-polli-retry-scope.diff)
+* [Editor's Copy](https://ioggstream.github.io/draft-polli-id-digest-algorithms/#go.draft-polli-id-digest-algorithms.html)
+* [Individual Draft](https://tools.ietf.org/html/draft-polli-id-digest-algorithms)
+* [Compare Editor's Copy to Individual Draft](https://ioggstream.github.io/draft-polli-id-digest-algorithms/#go.draft-polli-id-digest-algorithms.diff)
 
 ## Building the Draft
 
@@ -21,4 +21,4 @@ This requires that you have the necessary software installed.  See
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/ioggstream/draft-polli-retry-scope/blob/master/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ioggstream/draft-polli-id-digest-algorithms/blob/master/CONTRIBUTING.md).
