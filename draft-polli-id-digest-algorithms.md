@@ -154,8 +154,47 @@ and the subsequent discussion here https://github.com/httpwg/http-extensions/iss
 Q: Question 1
 :  Answer 1
 
+# Code Samples
+{:numbered="false"}
+
+_RFC Editor: Please remove this section before publication._
+
+How can I generate and validate the `Digest` values shown in the examples
+throughout this document?
+
+The following python3 code can be used to generate digests for json objects
+using crc32c algorithm. Note that these are formatted as
+base64. This function could be adapted to other algorithms and should take into
+account their specific formatting rules.
+
+~~~
+import base64, json, brotli, crc32c
+
+identity = lambda x: x
+
+def digest(item, content_coding=identity, algorithm=crc32c.crc32c):
+    json_bytes = json.dumps(item).encode()
+    content_encoded = content_coding(json_bytes)
+    checksum = algorithm(content_encoded)
+    # encode result has uppercase hex
+    return hex(checksum)[2:].upper()
+
+
+item = {"hello": "world"}
+
+print("crc32c digest value for a br-coded representation: ",
+    digest(item, content_coding=brotli.compress)
+)
+
+print("id-crc32c digest value for a br-coded representation: ",
+    digest(item, content_coding=identity)
+)
+
+~~~
+
 # Change Log
 {: numbered="false"}
 
 RFC EDITOR PLEASE DELETE THIS SECTION.
+
 
