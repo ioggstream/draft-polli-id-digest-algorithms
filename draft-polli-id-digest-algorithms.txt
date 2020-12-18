@@ -4,8 +4,8 @@
 
 Network Working Group                                           R. Polli
 Internet-Draft     Digital Transformation Department, Italian Government
-Intended status: Standards Track                        8 September 2020
-Expires: 12 March 2021
+Intended status: Standards Track                        18 December 2020
+Expires: 21 June 2021
 
 
                  The "id-" prefix for Digest Algorithms
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 March 2021.
+   This Internet-Draft will expire on 21 June 2021.
 
 
 
@@ -53,9 +53,9 @@ Status of This Memo
 
 
 
-Polli                     Expires 12 March 2021                 [Page 1]
+Polli                     Expires 21 June 2021                  [Page 1]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
 
 
 Copyright Notice
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Polli                     Expires 12 March 2021                 [Page 2]
+Polli                     Expires 21 June 2021                  [Page 2]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
 
 
 1.1.  Notational Conventions
@@ -165,9 +165,9 @@ Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
 
 
 
-Polli                     Expires 12 March 2021                 [Page 3]
+Polli                     Expires 21 June 2021                  [Page 3]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
 
 
 3.  Security Considerations
@@ -206,8 +206,8 @@ Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
 
    [DIGEST]   Polli, R. and L. Pardue, "Digest Headers", Work in
               Progress, Internet-Draft, draft-ietf-httpbis-digest-
-              headers-03, 7 September 2020, <http://www.ietf.org/
-              internet-drafts/draft-ietf-httpbis-digest-headers-03.txt>.
+              headers-04, 17 October 2020, <http://www.ietf.org/
+              internet-drafts/draft-ietf-httpbis-digest-headers-04.txt>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -221,9 +221,9 @@ Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
 
 
 
-Polli                     Expires 12 March 2021                 [Page 4]
+Polli                     Expires 21 June 2021                  [Page 4]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
 
 
    [RFC7405]  Kyzivat, P., "Case-Sensitive String Support in ABNF",
@@ -277,9 +277,9 @@ Code Samples
 
 
 
-Polli                     Expires 12 March 2021                 [Page 5]
+Polli                     Expires 21 June 2021                  [Page 5]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms   September 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
 
 
    import base64, json, brotli, crc32c
@@ -312,6 +312,7 @@ Author's Address
 
    Roberto Polli
    Digital Transformation Department, Italian Government
+   Italy
 
    Email: robipolli@gmail.com
 
@@ -332,5 +333,4 @@ Author's Address
 
 
 
-
-Polli                     Expires 12 March 2021                 [Page 6]
+Polli                     Expires 21 June 2021                  [Page 6]
