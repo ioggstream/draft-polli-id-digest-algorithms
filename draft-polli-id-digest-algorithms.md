@@ -18,6 +18,7 @@ author:
     name: Roberto Polli
     org: Digital Transformation Department, Italian Government
     email: robipolli@gmail.com
+    country: Italy
 
 normative:
 
