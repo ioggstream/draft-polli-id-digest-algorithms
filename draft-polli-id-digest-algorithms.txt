@@ -4,8 +4,8 @@
 
 Network Working Group                                           R. Polli
 Internet-Draft     Digital Transformation Department, Italian Government
-Intended status: Standards Track                        18 December 2020
-Expires: 21 June 2021
+Intended status: Standards Track                          4 January 2021
+Expires: 8 July 2021
 
 
                  The "id-" prefix for Digest Algorithms
@@ -27,8 +27,8 @@ Note to Readers
    (https://lists.w3.org/Archives/Public/ietf-http-wg/).
 
    The source code and issues list for this draft can be found at
-   https://github.com/ioggstream/draft-polli-Retry-Scope
-   (https://github.com/ioggstream/draft-polli-Retry-Scope).
+   https://github.com/ioggstream/draft-polli-id-digest-algorithms
+   (https://github.com/ioggstream/draft-polli-id-digest-algorithms).
 
 Status of This Memo
 
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 June 2021.
+   This Internet-Draft will expire on 8 July 2021.
 
 
 
@@ -53,14 +53,14 @@ Status of This Memo
 
 
 
-Polli                     Expires 21 June 2021                  [Page 1]
+Polli                      Expires 8 July 2021                  [Page 1]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms     January 2021
 
 
 Copyright Notice
 
-   Copyright (c) 2020 IETF Trust and the persons identified as the
+   Copyright (c) 2021 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Polli                     Expires 21 June 2021                  [Page 2]
+Polli                      Expires 8 July 2021                  [Page 2]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms     January 2021
 
 
 1.1.  Notational Conventions
@@ -165,9 +165,9 @@ Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
 
 
 
-Polli                     Expires 21 June 2021                  [Page 3]
+Polli                      Expires 8 July 2021                  [Page 3]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms     January 2021
 
 
 3.  Security Considerations
@@ -221,9 +221,9 @@ Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
 
 
 
-Polli                     Expires 21 June 2021                  [Page 4]
+Polli                      Expires 8 July 2021                  [Page 4]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms     January 2021
 
 
    [RFC7405]  Kyzivat, P., "Case-Sensitive String Support in ABNF",
@@ -277,9 +277,9 @@ Code Samples
 
 
 
-Polli                     Expires 21 June 2021                  [Page 5]
+Polli                      Expires 8 July 2021                  [Page 5]
 
-Internet-Draft   The "id-" prefix for Digest Algorithms    December 2020
+Internet-Draft   The "id-" prefix for Digest Algorithms     January 2021
 
 
    import base64, json, brotli, crc32c
@@ -333,4 +333,4 @@ Author's Address
 
 
 
-Polli                     Expires 21 June 2021                  [Page 6]
+Polli                      Expires 8 July 2021                  [Page 6]
